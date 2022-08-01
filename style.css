@@ -1,0 +1,164 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: #292e39;
+    color: #d5e6f0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 1px 1px 5px black;
+}
+
+hr {
+    transform: rotate(90deg);
+}
+
+/* NavBar */
+#navbar {
+    position: sticky;
+    margin-left: -2rem;
+}
+
+#navbarlist {
+    color: #d5e6f0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#navbaritem {
+    color: #d5e6f0;
+    margin: 0 1rem;
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+#navbaritem:hover {
+    text-shadow: 1px 1px 5px black;
+    transform: translate(0, -1px);
+}
+
+#navbaritemlink {
+    color: #d5e6f0;
+    text-decoration: none;
+}
+
+#banner {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    max-height: 400px;
+}
+
+#banner img {
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+#imagetext {
+    position: absolute;
+    font-weight: 500;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    text-shadow: 1px 1px 5px black;
+}
+
+#imageip {
+    position: absolute;
+    font-weight: 500;
+    font-size: 2.5rem;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    background-color: #292e39;
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+#maincontainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #313742;
+    max-width: 1000px;
+    margin: 3rem auto;
+    margin-left: min(2rem);
+    margin-right: min(2rem);
+    border-radius: .5rem;
+}
+
+#maincontainer h2 {
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+#maincontainer p {
+    margin: 1rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#maincontainer img {
+    align-self: center;
+    max-width: 90%;
+    border-radius: .5rem;
+    margin: 1rem;
+}
+
+/* Development Log */
+
+#maincontainer ul {
+    padding-left: 5rem;
+}
+
+#maincontainer li {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Stats */
+#statscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #313742;
+    max-width: 1000px;
+    margin: 3rem auto;
+    margin-left: min(2rem);
+    margin-right: min(2rem);
+    border-radius: .5rem;
+}
+
+#playercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#playerstat {
+    padding: .3rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+#playerimage {
+    padding: 0 .5rem;
+}
