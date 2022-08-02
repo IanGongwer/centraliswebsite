@@ -99,8 +99,6 @@ hr {
     background-color: #313742;
     max-width: 1000px;
     margin: 3rem auto;
-    margin-left: min(2rem);
-    margin-right: min(2rem);
     border-radius: .5rem;
 }
 
@@ -142,23 +140,19 @@ hr {
     background-color: #313742;
     max-width: 1000px;
     margin: 3rem auto;
-    margin-left: min(2rem);
-    margin-right: min(2rem);
     border-radius: .5rem;
 }
 
-#playercontainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#playerstat {
-    padding: .3rem;
+tr {
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-#playerimage {
-    padding: 0 .5rem;
+th {
+    padding: 0 1rem;
+}
+
+td {
+    padding: 0 1rem;
+    text-align: center; 
 }

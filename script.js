@@ -1,30 +1,32 @@
 let counter = 0;
 
-fetch("https://restapijs.herokuapp.com/apiData")
+fetch("https://centralisrestapi.herokuapp.com/players")
     .then((response) => response.json())
-    .then((data) => data.forEach(function (item) {
+    .then((data) => data.forEach(function (item, index) {
         if (counter < 10) {
             addItemToDOM(item)
             counter++;
         }
     }));
 
-function addItemToDOM(item) {
+function addItemToDOM(item, index) {
     // ✅ Create element
-    const container = document.createElement('div');
-    const el = document.createElement('div');
-    const image = document.createElement('img')
+    const table = document.getElementById("statscontainer")
 
-    image.src = "https://minotar.net/avatar/" + item.name + "/50";
+    let row = table.insertRow(index);
 
-    el.textContent = item.name + " | Wins: " + item.wins + " | Kills: " + item.kills + " | Deaths: " + item.deaths;
+    const icon = row.insertCell(0);
+    const user = row.insertCell(1);
+    const wins = row.insertCell(2);
+    const kills = row.insertCell(3);
+    const deaths = row.insertCell(4);
 
-    container.setAttribute('id', 'playercontainer')
-    el.setAttribute('id', "playerstat");
-    image.setAttribute('id', 'playerimage')
+    const image = document.createElement("img");
+    image.src = "https://minotar.net/avatar/" + item.player_name + "/35";
 
-    const box = document.getElementById('statscontainer');
-    container.appendChild(image);
-    container.appendChild(el);
-    box.appendChild(container);
+    icon.appendChild(image);
+    user.textContent = item.player_name;
+    wins.textContent = item.game_wins;
+    kills.textContent = item.player_kills;
+    deaths.textContent = item.player_deaths;
 }
