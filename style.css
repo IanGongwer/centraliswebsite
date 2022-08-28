@@ -174,9 +174,3 @@ td {
 #gameinfocontainer h2 {
     margin: 0 .4rem;
 }
-
-#cinematicpicture {
-    display: block;
-    margin: 2rem auto;
-    max-width: 60%;
-}
