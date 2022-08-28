@@ -156,3 +156,27 @@ td {
     padding: 0 1rem;
     text-align: center; 
 }
+
+/* Game Information */
+#gameinfocontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#subcontainer {
+    flex-direction: row;
+}
+
+#gameinfocontainer h2 {
+    margin: 0 .4rem;
+}
+
+#cinematicpicture {
+    display: block;
+    margin: 2rem auto;
+    max-width: 60%;
+}
