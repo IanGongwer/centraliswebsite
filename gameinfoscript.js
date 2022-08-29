@@ -34,17 +34,14 @@ function getGameTimeFormatted(gameTime) {
 
 var t1 = setInterval(runGameInformation, 1000);
 
-function runKillFeedInformation() {
-    fetch("https://centralisrestapi.herokuapp.com/killfeed")
-        .then((response) => response.json())
-        .then((data) => data.forEach(function (item) {
-            addLiveKill(item)
-        }));
-}
+fetch("https://centralisrestapi.herokuapp.com/killfeed")
+    .then((response) => response.json())
+    .then((data) => data.forEach(function (item) {
+        addLiveKill(item)
+    }));
 
 function addLiveKill(item) {
     const table = document.getElementById("livekillscontainer")
-    table.innerHTML = "";
 
     let row = table.insertRow();
     const liveKill = row.insertCell();
@@ -55,5 +52,3 @@ function addLiveKill(item) {
         liveKill.textContent = item.player_name + " has been killed mysteriously";
     }
 }
-
-var t2 = setInterval(runKillFeedInformation, 1000);
