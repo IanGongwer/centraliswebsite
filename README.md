@@ -22,4 +22,4 @@ This is the webpage that runs the CentralisCC website that includes announcement
 ![image](https://user-images.githubusercontent.com/63007329/186737978-3b1e95c3-80f1-4302-afe9-4da809a8c54b.png)
 
 # Video Walkthrough
-https://user-images.githubusercontent.com/63007329/186739269-7bb89223-7b14-405a-92d5-2114aa5cd7bb.mp4
+https://user-images.githubusercontent.com/63007329/187273927-d7186f6d-7b8c-45b0-a6cc-15654d13fc5d.mp4
