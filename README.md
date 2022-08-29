@@ -1,6 +1,6 @@
 # CentralisWebsite
 
-This is the webpage that runs the CentralisCC website that includes announcements, latest developer updates, live player statistics, and more.
+This is the CentralisCC website that includes announcements, latest developer updates, live player statistics, and more. Below are images of each page and a video walkthrough is available at the bottom of the ReadME.
 
 # Page Banner
 ![image](https://user-images.githubusercontent.com/63007329/186738199-7a8b03a9-ff35-4082-8497-18c917187b77.png)
