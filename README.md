@@ -2,6 +2,8 @@
 
 This is the CentralisCC website that includes announcements, latest developer updates, live player statistics, and more. Below are images of each page and a video walkthrough is available at the bottom of the ReadME.
 
+The All-Time Statistics update at the end of every game. The game information updaates once every second and the live kill feed is updated upon page refresh.
+
 # Page Banner
 ![image](https://user-images.githubusercontent.com/63007329/186738199-7a8b03a9-ff35-4082-8497-18c917187b77.png)
 
@@ -20,6 +22,9 @@ This is the CentralisCC website that includes announcements, latest developer up
 # Custom In-Game Recipes
 ![image](https://user-images.githubusercontent.com/63007329/186737942-2201e73c-57c1-4951-b5d9-f4efa9b9a7fc.png)
 ![image](https://user-images.githubusercontent.com/63007329/186737978-3b1e95c3-80f1-4302-afe9-4da809a8c54b.png)
+
+# Game Information
+![image](https://user-images.githubusercontent.com/63007329/187274302-94b9df72-636d-4dfc-a0f1-a8ee1d0571c9.png)
 
 # Video Walkthrough
 https://user-images.githubusercontent.com/63007329/187273927-d7186f6d-7b8c-45b0-a6cc-15654d13fc5d.mp4
