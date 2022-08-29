@@ -143,16 +143,16 @@ hr {
     border-radius: .5rem;
 }
 
-tr {
+#statscontainer tr {
     font-weight: 500;
     font-size: 1.5rem;
 }
 
-th {
+#statscontainer th {
     padding: 0 1rem;
 }
 
-td {
+#statscontainer td {
     padding: 0 1rem;
     text-align: center; 
 }
@@ -169,4 +169,25 @@ td {
 
 #gameinfocontainer h2 {
     margin: 0 .4rem;
+}
+
+#livekillscontainer {
+    margin: 3rem auto;
+    background-color: #313742;
+    border-radius: .5rem;
+}
+
+#livekillscontainer tr {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#livekillscontainer th {
+    padding: 0 1rem;
+    text-align: center; 
+}
+
+#livekillscontainer td {
+    padding: 0 1rem;
+    text-align: center; 
 }
