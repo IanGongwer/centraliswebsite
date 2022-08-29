@@ -2,7 +2,7 @@
 
 This is the CentralisCC website that includes announcements, latest developer updates, live player statistics, and more. Below are images of each page and a video walkthrough is available at the bottom of the ReadME.
 
-The All-Time Statistics update at the end of every game. The game information updaates once every second and the live kill feed is updated upon page refresh.
+The All-Time Statistics update at the end of every game. The game information updates once every second and the live kill feed is updated upon page refresh.
 
 # Page Banner
 ![image](https://user-images.githubusercontent.com/63007329/186738199-7a8b03a9-ff35-4082-8497-18c917187b77.png)
